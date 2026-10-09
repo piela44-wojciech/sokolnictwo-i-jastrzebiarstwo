@@ -7,7 +7,7 @@
  --paper:#9FD08F;
 }
 *{box-sizing:border-box}
-html,body{margin:0;padding:0;background:linear-gradient(180deg,#b8dfa7 0%,#9fd08f 48%,#78aa66 100%);background-attachment:fixed;color:var(--ink)}
+html,body{margin:0;padding:0;background:#9FD08F;color:var(--ink)}
 body{font-family:Georgia,"Times New Roman",serif;min-height:100vh}
 a{color:#244f20}
 .site{width:min(1030px,100% - 20px);margin:10px auto 24px}
@@ -30,7 +30,7 @@ a{color:#244f20}
 }
 .menu a::before{content:"✦";position:absolute;left:3px;top:50%;transform:translateY(-50%);font-size:9px;color:#9b7a28}
 .menu a{padding-left:16px}
-.menu a::after{content:"";position:absolute;right:5px;top:50%;width:27px;height:27px;background:url("assets/pustułka_menu.jpg") center/contain no-repeat;opacity:.95;pointer-events:none}
+.menu a::after{content:"";position:absolute;right:5px;top:50%;width:27px;height:27px;background:url("assets/sokolnictwo_menu.svg") center/contain no-repeat;opacity:.95;pointer-events:none}
 .menu a:hover,.menu a:focus-visible{filter:brightness(1.08);transform:translateY(-1px);box-shadow:inset 0 1px 0 rgba(255,255,255,.8),0 3px 6px rgba(32,59,25,.3)}
 .menu a.active{background:linear-gradient(135deg,#dceab0,#8eb66a);border-color:#9b7a28;box-shadow:inset 0 0 0 1px rgba(155,122,40,.5),0 2px 4px rgba(32,59,25,.25)}
 .menu a:focus-visible{outline:2px solid #244f20;outline-offset:2px}
