@@ -17,7 +17,7 @@ a{color:#244f20}
 .header-empty{width:100%;height:188px;margin-top:11px}
 .layout{display:grid;grid-template-columns:227px minmax(0,1fr);align-items:start}
 .menu{width:227px;background:linear-gradient(180deg,#b8dfa9 0%,#91c47f 100%);padding:0 0 12px}
-.menu-top{height:61px;width:227px;background:url("assets/menutop_JVYr.jpg") center/227px 61px no-repeat}
+.menu-top{height:61px;width:227px;background:url("assets/menu_nowy.svg") center/227px 61px no-repeat}
 .menu ul{list-style:none;margin:0;padding:3px 5px 0;display:grid;gap:5px}
 .menu li{margin:0;padding:0}
 .menu a{
