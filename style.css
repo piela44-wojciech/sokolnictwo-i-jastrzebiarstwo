@@ -4,10 +4,10 @@
  --ink:#172b16;
  --green:#31552B;
  --line:rgba(49,85,43,.32);
- --paper:var(--bg);
+ --paper:#9FD08F;
 }
 *{box-sizing:border-box}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--ink)}
+html,body{margin:0;padding:0;background:linear-gradient(180deg,#b8dfa7 0%,#9fd08f 48%,#78aa66 100%);background-attachment:fixed;color:var(--ink)}
 body{font-family:Georgia,"Times New Roman",serif;min-height:100vh}
 a{color:#244f20}
 .site{width:min(1030px,100% - 20px);margin:10px auto 24px}
