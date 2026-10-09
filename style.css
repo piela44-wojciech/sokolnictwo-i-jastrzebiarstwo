@@ -112,3 +112,7 @@ a{color:#244f20}
   .source-content table { table-layout: fixed; }
   .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* New combined header banner */
+.header-new-wrap{display:block;width:100%;}
+.header-new{display:block;width:100%;height:auto;max-width:100%;}
