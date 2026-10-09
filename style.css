@@ -1,13 +1,13 @@
 
 :root{
- --bg:#9FD08F;
+ --bg:#a6cf98;
  --ink:#172b16;
  --green:#31552B;
  --line:rgba(49,85,43,.32);
- --paper:#9FD08F;
+ --paper:#a8d09a;
 }
 *{box-sizing:border-box}
-html,body{margin:0;padding:0;background:#9FD08F;color:var(--ink)}
+html,body{margin:0;padding:0;background:#a6cf98;color:var(--ink)}
 body{font-family:Georgia,"Times New Roman",serif;min-height:100vh}
 a{color:#244f20}
 .site{width:min(1030px,100% - 20px);margin:10px auto 24px}
@@ -16,7 +16,7 @@ a{color:#244f20}
 .header-center{width:500px;max-width:100%;height:188px;object-fit:cover;display:block;margin:11px auto 0}
 .header-empty{width:100%;height:188px;margin-top:11px}
 .layout{display:grid;grid-template-columns:227px minmax(0,1fr);align-items:start}
-.menu{width:227px;background:linear-gradient(180deg,#b8dfa9 0%,#91c47f 100%);padding:0 0 12px}
+.menu{width:227px;background:linear-gradient(180deg,#a8cf98 0%,#a0c991 48%,#93bf82 100%);padding:0 0 12px}
 .menu-top{height:61px;width:227px;background:url("assets/menu_nowy.svg") center/227px 61px no-repeat}
 .menu ul{list-style:none;margin:0;padding:3px 5px 0;display:grid;gap:5px}
 .menu li{margin:0;padding:0}
