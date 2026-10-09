@@ -16,17 +16,24 @@ a{color:#244f20}
 .header-center{width:500px;max-width:100%;height:188px;object-fit:cover;display:block;margin:11px auto 0}
 .header-empty{width:100%;height:188px;margin-top:11px}
 .layout{display:grid;grid-template-columns:227px minmax(0,1fr);align-items:start}
-.menu{width:227px;background:var(--bg);padding:0 0 12px}
+.menu{width:227px;background:linear-gradient(180deg,#b8dfa9 0%,#91c47f 100%);padding:0 0 12px}
 .menu-top{height:61px;width:227px;background:url("assets/menutop_JVYr.jpg") center/227px 61px no-repeat}
-.menu ul{list-style:none;margin:0;padding:0 5px}
+.menu ul{list-style:none;margin:0;padding:3px 5px 0;display:grid;gap:5px}
 .menu li{margin:0;padding:0}
 .menu a{
- display:block;position:relative;min-height:31px;padding:5px 42px 5px 10px;
- text-decoration:none;color:#173414;font-weight:bold;font-size:15px;line-height:20px;
- background:var(--bg) url("assets/pustułka_menu.jpg") no-repeat right center/30px auto;
- border-bottom:1px solid var(--line);text-shadow:1px 1px rgba(255,255,255,.45)
+ display:flex;align-items:center;position:relative;min-height:38px;padding:6px 38px 6px 11px;
+ text-decoration:none;color:#173414;font-weight:bold;font-size:15px;line-height:19px;
+ background:linear-gradient(135deg,rgba(237,245,206,.94),rgba(150,198,126,.96));
+ border:1px solid #6b7c3e;outline:1px solid rgba(255,246,184,.7);outline-offset:-4px;
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.7),inset 0 -3px 0 rgba(37,66,29,.14),0 2px 3px rgba(32,59,25,.22);
+ text-shadow:1px 1px rgba(255,255,255,.65);transition:transform .16s ease,filter .16s ease,box-shadow .16s ease;
 }
-.menu a:hover,.menu a.active{filter:brightness(.95);transform:translateX(2px)}
+.menu a::before{content:"✦";position:absolute;left:3px;top:50%;transform:translateY(-50%);font-size:9px;color:#9b7a28}
+.menu a{padding-left:16px}
+.menu a::after{content:"";position:absolute;right:5px;top:50%;width:27px;height:27px;background:url("assets/pustułka_menu.jpg") center/contain no-repeat;opacity:.95;pointer-events:none}
+.menu a:hover,.menu a:focus-visible{filter:brightness(1.08);transform:translateY(-1px);box-shadow:inset 0 1px 0 rgba(255,255,255,.8),0 3px 6px rgba(32,59,25,.3)}
+.menu a.active{background:linear-gradient(135deg,#dceab0,#8eb66a);border-color:#9b7a28;box-shadow:inset 0 0 0 1px rgba(155,122,40,.5),0 2px 4px rgba(32,59,25,.25)}
+.menu a:focus-visible{outline:2px solid #244f20;outline-offset:2px}
 .content{
  min-width:0;min-height:600px;padding:16px 22px 30px;
  background:var(--paper);border-left:1px solid var(--line);border-right:1px solid var(--line);
