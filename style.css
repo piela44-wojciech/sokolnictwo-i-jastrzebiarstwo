@@ -1,10 +1,10 @@
 
 :root{
- --bg:#9FD08F;
+ --bg:#9FCB8D;
  --ink:#172b16;
  --green:#31552B;
  --line:rgba(49,85,43,.32);
- --paper:rgba(238,245,233,.58);
+ --paper:var(--bg);
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--ink)}
